@@ -32,7 +32,7 @@ Note:
 To make climin package to work in Python 3, go to the installation folder of climin (located in the site-packages folder), change line 86 in file climin/util.py (function draw_mini_slices()) to:
 idxs = list(range(len(slices)))
 
-I.3. For Windows systems, install 'numpy-1.13+mkl' from this page: https://www.lfd.uci.edu/~gohlke/pythonlibs/
+I.3. For Windows systems, install 'numpy-1.13+mkl' from thisÂ page: https://www.lfd.uci.edu/~gohlke/pythonlibs/
 
 ===================================================
 
@@ -42,6 +42,7 @@ An example test script is given in the file 'test_hgp.py'. It can be run with:
 python test_hgp.py
 
 =====================================================
+
 References
 
 [1] GPy (since 2012) GPy: A Gaussian process framework in python. http://github.com/
